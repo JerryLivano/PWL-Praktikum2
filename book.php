@@ -10,34 +10,39 @@ $results = $stmt->fetchAll();
 $link = null;
 ?>
 
-<table style="border: 1px;">
-    <thread>
-        <tr>
-            <th>ISBN</th>
-            <th>Title</th>
-            <th>Author</th>
-            <th>Publisher</th>
-            <th>Publish Year</th>
-            <th>Short Description</th>
-            <th>Cover</th>
-            <th>Genre</th>
-        </tr>
-    </thread>
+<main>
+    <div>
+    <table class="table">
+    <thead class="table-dark">
+        <td>#</td>
+        <td>ISBN</td>
+        <td>Title</td>
+        <td>Author</td>
+        <td>Publisher</td>
+        <td>Publish Year</td>
+        <td>Short Description</td>
+        <td>Cover</td>
+        <td>Name</td>
+    </thead>
     <tbody>
     <?php
-    foreach ($results as $genre) {
-        echo '<tr>';
-        echo '<td>' . $genre['isbn'] . '</td>';
-        echo '<td>' . $genre['title'] . '</td>';
-        echo '<td>' . $genre['author'] . '</td>';
-        echo '<td>' . $genre['publisher'] . '</td>';
-        echo '<td>' . $genre['publish_year'] . '</td>';
-        echo '<td>' . $genre['short_description'] . '</td>';
-        echo '<td>' . $genre['cover'] . '</td>';
-        echo '<td>' . $genre['name'] . '</td>';
-        echo '</tr>';
-    }
-    ?>
+        $number = 1;
+        foreach ($results as $genre) {
+            echo '<tr>';
+            echo '<td>'.  $number .'</td>';
+            echo '<td>' . $genre['isbn'] . '</td>';
+            echo '<td>' . $genre['title'] . '</td>';
+            echo '<td>' . $genre['author'] . '</td>';
+            echo '<td>' . $genre['publisher'] . '</td>';
+            echo '<td>' . $genre['publish_year'] . '</td>';
+            echo '<td>' . $genre['short_description'] . '</td>';
+            echo '<td>' . $genre['cover'] . '</td>';
+            echo '<td>' . $genre['name'] . '</td>';
+            echo '</tr>';
+            $number = $number + 1;
+            }
+        ?>
     </tbody>
-</table>
-
+    </table>
+    </div>
+</main>
