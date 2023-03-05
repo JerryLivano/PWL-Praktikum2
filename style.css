@@ -179,3 +179,19 @@
         font-family: 'Oswald', sans-serif;
         text-align: center;
     }
+
+    .table-book {
+        border: none;
+    }
+
+    .buku1:hover {
+        cursor: pointer;
+    }
+
+    .buku2:hover {
+        cursor: pointer;
+    }
+
+    .buku3:hover {
+        cursor: pointer;
+    }
