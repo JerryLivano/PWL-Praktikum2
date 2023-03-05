@@ -182,15 +182,6 @@
                     <li>
                         <a href="?menu=genre"><i class="fa fa-puzzle-piece" aria-hidden="true"></i><span style="margin-left:10px;">Genre</span></a>
                     </li>
-<!--                    <li>-->
-<!--                        <a href="#"> <i class="fa fa-font" aria-hidden="true"> </i> <span style="margin-left:10px;"> Section</span> </a>-->
-<!--                    </li>-->
-<!--                    <li>-->
-<!--                        <a href="#"><i class="fa fa-info-circle " aria-hidden="true"> </i> <span style="margin-left:10px;">Section </span> </a>-->
-<!--                    </li>-->
-<!--                    <li>-->
-<!--                        <a href="#"> <i class="fa fa-comment-o" aria-hidden="true"> </i> <span style="margin-left:10px;"> Section</span> </a>-->
-<!--                    </li>-->
                 </ul>
             </div>
             <div id="page-content-wrapper">
