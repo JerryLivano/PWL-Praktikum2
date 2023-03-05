@@ -8,19 +8,18 @@ $stmt->execute();
 $results = $stmt->fetchAll();
 $link = null;
 ?>
-<h1>tes</h1>
-<table style="border: solid 1px black;">
-    <thread>
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-        </tr>
-    </thread>
-    <tbody>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+    </tr>
+  </thead>
+  <tbody>
     <?php
     foreach ($results as $genre) {
         echo '<tr>';
-        echo '<td>' . $genre['id'] . '</td>';
+        echo '<th scope = "row">' . $genre['id'] . '</th>';
         echo '<td>' . $genre['name'] . '</td>';
         echo '</tr>';
     }
