@@ -51,7 +51,7 @@
     </div>
 </div>
 <main>
-    <div class="container-content" style="background-color:black;">
+    <div class="container-content">
     <?php
     $navigation = filter_input(INPUT_GET, 'menu');
     switch ($navigation) {
