@@ -1,5 +1,6 @@
     body {
         overflow-x: hidden;
+        background-image: url("https://wallpapercave.com/wp/wp7687579.jpg");
     }
     #wrapper {
         padding-left: 0;
@@ -11,9 +12,6 @@
     #wrapper.toggled {
         padding-left: 200px;
     
-    }
-    table, th, td {
-        border: 1px solid black;
     }
     #sidebar-wrapper {
         z-index: 1000;
