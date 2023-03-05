@@ -174,3 +174,8 @@
         -o-transition: all 0.5s ease;
         transition: all 0.5s ease;
     }
+
+    .title {
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+    }
