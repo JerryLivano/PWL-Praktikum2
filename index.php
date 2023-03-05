@@ -37,6 +37,9 @@
                     <li>
                         <a href="?menu=genre"><i class="fa fa-puzzle-piece" aria-hidden="true"></i><span style="margin-left:10px;">Genre</span></a>
                     </li>
+                    <li>
+                        <a href="?menu=about_us"><i class="fa fa-puzzle-piece" aria-hidden="true"></i><span style="margin-left:10px;">About Us</span></a>
+                    </li>
                 </ul>
             </div>
             <div id="page-content-wrapper">
