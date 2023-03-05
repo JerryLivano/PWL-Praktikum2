@@ -13,7 +13,7 @@ $link = null;
 <main>
     <div class="title"><h1>Isi dari Table Buku</h1></div>
     <div class="container-fluid mt-2">
-    <table class="table">
+    <table class="table tables-color">
     <thead class="table-dark">
         <td>#</td>
         <td>ISBN</td>
@@ -46,5 +46,49 @@ $link = null;
     </tbody>
     </table>
     </div>
-    <hr>
+    <hr style="border:2px solid black; opacity:1; width:95%; position:relative; left:50%; transform:translateX(-50%);">
+    <div class="row" style="text-align:center;">
+        <table class="table-book">
+            <tr class="table-book">
+                <td class="table-book"><img src="assets/book.png" class="buku1" alt="" width="200px"></td>
+                <td class="table-book"><img src="assets/book.png" class="buku2" alt="" width="200px"></td>
+                <td class="table-book"><img src="assets/book.png" class="buku3" alt="" width="200px"></td>
+            </tr>
+            <tr class="table-book">
+                <td class="table-book"><h4>Cara Bermain Basket</h4></td>
+                <td class="table-book"><h4>Femiemon</h4></td>
+                <td class="table-book"><h4>Naruto Friscilla</h4></td>
+            </tr>
+        </table>
+    </div>
 </main>
+
+<?php
+    $shortdesc = array();
+    foreach ($results as $genre) {
+        $shortdesc[] = $genre['short_description'];
+    }
+?>
+
+<script>
+$(".buku1").click(function(e) {
+    e.preventDefault();
+    <?php
+        echo 'alert("'.$shortdesc[3].'")';
+    ?> 
+})
+
+$(".buku2").click(function(e) {
+    e.preventDefault();
+    <?php
+        echo 'alert("'.$shortdesc[2].'")';
+    ?> 
+})
+
+$(".buku3").click(function(e) {
+    e.preventDefault();
+    <?php
+        echo 'alert("'.$shortdesc[4].'")';
+    ?> 
+})
+</script>
