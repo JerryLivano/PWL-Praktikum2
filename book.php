@@ -13,7 +13,7 @@ $link = null;
 <main>
     <div class="title"><h1>Isi dari Table Buku</h1></div>
     <div class="container-fluid mt-2">
-    <table class="table">
+    <table class="table tables-color">
     <thead class="table-dark">
         <td>#</td>
         <td>ISBN</td>
@@ -46,7 +46,7 @@ $link = null;
     </tbody>
     </table>
     </div>
-    <hr style="border:3px solid black">
+    <hr style="border:2px solid black; opacity:1; width:95%; position:relative; left:50%; transform:translateX(-50%);">
     <div class="row" style="text-align:center;">
         <table class="table-book">
             <tr class="table-book">
