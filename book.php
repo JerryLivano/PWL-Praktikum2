@@ -50,9 +50,9 @@ $link = null;
     <div class="row" style="text-align:center;">
         <table class="table-book">
             <tr class="table-book">
-                <td class="table-book"><img src="book.png" class="buku1" alt="" width="200px"></td>
-                <td class="table-book"><img src="book.png" class="buku2" alt="" width="200px"></td>
-                <td class="table-book"><img src="book.png" class="buku3" alt="" width="200px"></td>
+                <td class="table-book"><img src="assets/book.png" class="buku1" alt="" width="200px"></td>
+                <td class="table-book"><img src="assets/book.png" class="buku2" alt="" width="200px"></td>
+                <td class="table-book"><img src="assets/book.png" class="buku3" alt="" width="200px"></td>
             </tr>
             <tr class="table-book">
                 <td class="table-book"><h4>Cara Bermain Basket</h4></td>
