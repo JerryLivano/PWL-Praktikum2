@@ -10,7 +10,7 @@ $results = $stmt->fetchAll();
 $link = null;
 ?>
 
-<table>
+<table style="border: 1px;">
     <thread>
         <tr>
             <th>ISBN</th>

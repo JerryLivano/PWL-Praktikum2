@@ -9,7 +9,7 @@ $results = $stmt->fetchAll();
 $link = null;
 ?>
 
-<table>
+<table style="border: solid 1px black;">
     <thread>
         <tr>
             <th>ID</th>
