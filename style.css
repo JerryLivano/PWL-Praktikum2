@@ -154,7 +154,7 @@
     }
     .container-content {
         position: absolute;
-        width: 100%-200px;
+        width: 87%;
         height: 100%;
         left: 200px;
         top: 0;
@@ -165,7 +165,7 @@
     }
     .container-toggled {
         position: absolute;
-        width: 100%-40px;
+        width: 98%;
         height: 100%;
         left: 40px;
         top: 0;
