@@ -154,7 +154,7 @@
     }
     .container-content {
         position: absolute;
-        width: 100%-200px;
+        width: 87%;
         height: 100%;
         left: 200px;
         top: 0;
@@ -165,7 +165,7 @@
     }
     .container-toggled {
         position: absolute;
-        width: 100%-40px;
+        width: 97.4%;
         height: 100%;
         left: 40px;
         top: 0;
@@ -174,28 +174,4 @@
         -o-transition: all 0.5s ease;
         transition: all 0.5s ease;
     }
-    .container_home{
-        font-family: 'Dongle', sans-serif;
-        margin: auto;
-        text-align: center;
-    }
-    .bag1{
-        width: 600px;
-        margin: auto;
-        text-align: center;
-    }
-    .isi1{
-        text-align: center;
-        color: black;
-        font-size: 25px;
-    }
-    .headline{
-        text-align: center;
-        font-size: 100px;
-        color: #bf9b30;
-    }
-    .kotak{
-        text-align: center;
-        margin: auto;
-        padding-left: 100%;
-    }
+

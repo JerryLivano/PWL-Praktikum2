@@ -11,7 +11,8 @@ $link = null;
 ?>
 
 <main>
-    <div>
+    <div class="title"><h1>Isi dari Table Buku</h1></div>
+    <div class="container-fluid mt-2">
     <table class="table">
     <thead class="table-dark">
         <td>#</td>
@@ -45,4 +46,5 @@ $link = null;
     </tbody>
     </table>
     </div>
+    <hr>
 </main>
