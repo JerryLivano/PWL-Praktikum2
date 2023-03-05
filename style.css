@@ -1,5 +1,6 @@
     body {
         overflow-x: hidden;
+        background-image: url("https://wallpapercave.com/wp/wp7687579.jpg");
     }
     #wrapper {
         padding-left: 0;
@@ -11,9 +12,6 @@
     #wrapper.toggled {
         padding-left: 200px;
     
-    }
-    table, th, td {
-        border: 1px solid black;
     }
     #sidebar-wrapper {
         z-index: 1000;
@@ -174,9 +172,9 @@
         -o-transition: all 0.5s ease;
         transition: all 0.5s ease;
     }
-
-    .title {
-        font-family: 'Oswald', sans-serif;
+    .container_home{
+        font-family: 'Dongle', sans-serif;
+        margin: auto;
         text-align: center;
     }
 
@@ -194,4 +192,24 @@
 
     .buku3:hover {
         cursor: pointer;
+    }
+
+    .bag1{
+        width: 600px;
+        margin: auto;
+        text-align: center;
+    }
+    .isi1{
+        text-align: center;
+        color: black;
+        font-size: 25px;
+    }
+    .headline{
+        text-align: center;
+        font-size: 100px;
+        color: #337cac;
+    }
+    .kotak{
+        text-align: center;
+        margin: auto;
     }
