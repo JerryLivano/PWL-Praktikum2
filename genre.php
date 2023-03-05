@@ -12,7 +12,7 @@ $link = null;
     <h1 style="color: white; text-align: center; letter-spacing: 2px;">Tabel Genre</h1>
 </nav>
 <table class="table table-dark table-striped" style="
-      width: 15%;
+      width: 25%;
       position: absolute;
       left: 75%;
       transform:translateX(-50%);
