@@ -38,7 +38,7 @@
                         <a href="?menu=genre"><i class="fa fa-puzzle-piece" aria-hidden="true"></i><span style="margin-left:10px;">Genre</span></a>
                     </li>
                     <li>
-                        <a href="?menu=about_us"><i class="fa fa-puzzle-piece" aria-hidden="true"></i><span style="margin-left:10px;">About Us</span></a>
+                        <a href="?menu=about_us"><i class="fa fa-id-card" aria-hidden="true"></i><span style="margin-left:10px;">About Us</span></a>
                     </li>
                 </ul>
             </div>
@@ -73,6 +73,9 @@
             break;
         case 'book':
             include_once 'book.php';
+            break;
+        case 'about_us':
+            include_once 'about_us.php';
             break;
         default:
             include_once 'home.php';
